@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remoteok-components</title>
+    <link rel="stylesheet" href="tailwind.css">
+</head>
+<body>
+    
+<!-- Buttons-->
+<div class="flex justify-end p-10 bg-gradient-to-r from-yellow-400 to-yellow-100">
+    <button class="w-40 mx-4 font-bold text-white bg-red-600 border-2 border-red-600 rounded-md hover:text-red-600 hover:bg-transparent h-11 focus:outline-none">
+        <h1>Post a job</h1>
+    </button>
+    <button class="w-40 font-bold text-white bg-green-400 border-2 border-green-400 rounded-md hover:text-green-400 hover:bg-transparent h-11 focus:outline-none">
+        <h1>Remote Health</h1>
+    </button>
+</div>
+
+<!--Search Tab-->
+<div class="flex justify-center p-10 mt-10 bg-gradient-to-r from-yellow-400 to-yellow-100">
+    <div class="flex items-center bg-white border rounded-full shadow-sm w-96 border-gray-50">
+        <div class="p-2">
+            <button class="flex items-center justify-center w-12 h-12 p-2 rounded-full focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468 4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768 0 3.421-.487 4.839-1.333l6.396 6.396 3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275 0 5.94 2.664 5.94 5.938 0 3.275-2.665 5.939-5.94 5.939-3.274 0-5.939-2.664-5.939-5.939z"/></svg>
+            </button>
+        </div>
+        <input class="w-full px-2 py-4 text-xl font-semibold leading-tight text-black rounded-full focus:outline-none" id="search" type="text" placeholder=""> 
+    </div>
+</div>
+
+<!--Card-->
+<div class="p-10 bg-gray-50 ">
+    <div class="flex justify-center py-8 bg-white border border-gray-200 rounded-lg shadow-md md:mx-36 px-30 hover:bg-gray-100">
+        <h1 class="justify-center inline-block my-auto font-bold">👉 Hiring Remotely?  Reach <span class="underline"> 1.000.000 +  Remote Workers </span> on the 🏆 #1  remote jobs board</h1>
+        <button class="inline-block px-4 mx-2 font-bold text-white bg-red-600 border-2 border-red-600 rounded-md hover:text-red-600 hover:bg-transparent h-11 focus:outline-none">
+            <h1>Post a job</h1>
+        </button>
+        <button class="inline-block px-4 font-bold text-red-600 bg-transparent border-2 border-red-600 rounded-md hover:text-white hover:bg-red-600 h-11 focus:outline-none">
+            <h1>Hide This</h1>
+        </button>
+    </div>
+</div>
+
+<!--Post-->
+<div class="p-10 bg-gray-50 ">
+    <div class="grid p-2 bg-white border border-gray-200 rounded-lg shadow-md md:grid-cols-12 md:mx-36 hover:bg-gray-100">
+        <div class="justify-center inline-block col-span-1 px-4 my-auto ">
+            <img class="w-16 py-2 border border-gray-200 rounded-lg" src="https://remoteok.io/cdn-cgi/image/fit=contain,width=100,height=100,quality=85/https://remoteOK.io/assets/jobs/9527b62f62e72e02994c9497ed6a66331619427842.png?1619427842" alt="">
+        </div>
+        <div class="inline-block col-span-4 ml-4">
+            <h1 class="text-lg font-light">Maxie Digital</h1>
+            <h1 class="text-2xl font-bold">Full Stack Engineer</h1>
+            <button class="p-1 bg-gray-300 rounded-lg focus:outline-none ">
+                <h1 class="text-xs font-bold">🇪🇺 EU ONLY</h1>
+            </button>
+        </div>
+        <div class="inline-block col-span-1 my-auto ml-4">
+            <button class="p-1 my-auto bg-green-500 rounded-lg focus:outline-none">
+                <h1 class="text-xs text-white ">VERIFIED</h1>
+            </button>
+        </div>
+        <div class="flex col-span-3 p-1 px-2 my-auto">
+            <button class="inline-block p-1 mx-1 text-black bg-white border-2 border-black rounded-lg focus:outline-none hover:text-white hover:bg-black">
+                <h1 class="text-xs ">CSS</h1>
+            </button>
+            <button class="inline-block p-1 mx-1 text-black bg-white border-2 border-black rounded-lg focus:outline-none hover:text-white hover:bg-black">
+                <h1 class="text-xs ">HTML</h1>
+            </button>
+            <button class="inline-block p-1 mx-1 text-black bg-white border-2 border-black rounded-lg focus:outline-none hover:text-white hover:bg-black">
+                <h1 class="text-xs ">JAVASCRIPT</h1>
+            </button>
+            <button class="inline-block p-1 mx-1 text-black bg-white border-2 border-black rounded-lg focus:outline-none hover:text-white hover:bg-black">
+                <h1 class="text-xs ">REACT</h1>
+            </button>
+        </div>
+        <div class="col-span-1 mx-auto my-auto">
+            <h1 class="text-xs font-light">📌 8d</h1>
+        </div>
+        <div class="col-span-2 mx-auto my-auto">
+            <button class="inline-block w-full px-10 font-bold text-white bg-red-600 border-2 border-red-600 rounded-md hover:text-red-600 hover:bg-transparent h-11 focus:outline-none">
+                <h1>Apply</h1>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!--Down Card-->
+<div class="flex justify-center w-full py-4 mt-8 bg-gray-900">
+    <h1 class="inline-block my-auto text-sm font-bold text-white">Join 100.416+ people and get a
+        <span>
+            <select class="px-2 py-1 mx-2 font-bold text-black bg-white rounded-lg focus:outline-none">
+                <option>daily</option>
+                <option>weekly</option>
+              </select>
+        </span>
+        email of all new remote jobs
+    </h1>
+    <input class="px-2 py-2 ml-3 text-sm font-bold leading-tight text-black rounded-md focus:outline-none" id="search" type="text" placeholder="E-Mail"> 
+    <button class="inline-block px-8 py-1 mx-1 font-bold text-white bg-red-600 border-2 border-red-600 rounded-md hover:text-red-600 hover:bg-transparent focus:outline-none">
+        <h1>Subscribe</h1>
+    </button>
+</div>
+</body>
+</html>
